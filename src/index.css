@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .text-color{
+        @apply text-light-Very-Dark-Grayish-Blue dark:text-dark-Light-Grayish-Blue
+    }
+
+    .text-gray-color{
+        @apply text-light-Dark-Grayish-Blue dark:text-dark-Dark-Grayish-Blue 
+    }
+
+    .hover-text-gray-color{
+        @apply hover:text-light-Very-Dark-Grayish-Blue hover:dark:text-dark-Light-Grayish-Blue cursor-pointer
+    }
+
+    .svg {
+        @apply cursor-pointer fill-light-Dark-Grayish-Blue dark:fill-dark-Dark-Grayish-Blue hover:fill-light-Very-Dark-Grayish-Blue hover:dark:fill-dark-Light-Grayish-Blue
+    }
+    
+}
